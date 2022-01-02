@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-require('dotenv').config();
+require('dotenv').config({path:/wave-portal/.env});
 
 module.exports = {
   solidity: "0.8.0",
